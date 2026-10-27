@@ -2,7 +2,7 @@
 
 [English](README.md) | [中文](README.cn.md)
 
-Standalone repository for the Siasun Diana C/C++ SDK. The current contents are the **3.3.0** C/C++ package used by this examples repository. The main examples repository references this repository as a Git submodule.
+Standalone repository for the Siasun Diana C/C++ SDK. The current contents are the **3.4.0** C/C++ package used by this examples repository. The main examples repository references this repository as a Git submodule.
 
 Before publishing or sharing this repository, confirm that the vendor SDK license allows the target private repository to store and distribute the SDK binaries, headers, and retained PDF documentation.
 

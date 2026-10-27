@@ -53,6 +53,16 @@ DIANA_API int setDefaultActiveTcp(/*IN[16]*/ double *default_tcp, /*IN*/ const c
 
 DIANA_API int setDefaultActiveTcpPose(/*IN[6]*/ double *arrPose, /*IN*/ const char *strIpAddress = "");
 
+DIANA_API int addTcpPose(/*IN*/ const char *strToolName, /*IN[6]*/ double *arrPose,
+                         /*IN*/ const char *strIpAddress = "");
+
+DIANA_API int setTcpPoseByTcpName(/*IN*/ const char *strToolName, /*IN[6]*/ double *arrPose,
+                                  /*IN*/ const char *strIpAddress = "");
+
+DIANA_API int deleteTcpPoseByTcpName(/*IN*/ const char *strToolName, /*IN*/ const char *strIpAddress = "");
+
+DIANA_API int switchTcpPoseByTcpName(/*IN*/ const char *strToolName, /*IN*/ const char *strIpAddress = "");
+
 DIANA_API int homogeneous2Pose(/*IN[16]*/ double *matrix, /*OUT[6]*/ double *pose);
 
 DIANA_API int pose2Homogeneous(/*IN[6]*/ double *pose, /*OUT[16]*/ double *matrix);

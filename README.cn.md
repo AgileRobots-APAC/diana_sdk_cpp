@@ -2,7 +2,7 @@
 
 [English](README.md) | [中文](README.cn.md)
 
-思灵机器人 Diana C/C++ SDK 的独立仓库。当前内容为主 examples 仓库使用的 **3.3.0** C/C++ 包；主 examples 仓库会以 Git submodule 的形式引用本仓库。
+思灵机器人 Diana C/C++ SDK 的独立仓库。当前内容为主 examples 仓库使用的 **3.4.0** C/C++ 包；主 examples 仓库会以 Git submodule 的形式引用本仓库。
 
 发布或共享本仓库前，请确认厂商 SDK 许可允许在目标私有仓库中保存和分发二进制、头文件及保留的 PDF 文档。
 
